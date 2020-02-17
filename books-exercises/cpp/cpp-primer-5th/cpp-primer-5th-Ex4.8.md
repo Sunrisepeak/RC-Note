@@ -84,7 +84,7 @@ What is the result of each of these of expressions?
 
 ```c++
 unsigned long ull = 3, ul2 = 7;
-	(a) ull & ul2 
+    (a) ull & ul2 
     (b) ull | ul2 
     (c) ull && ul2 
     (d) ull || ul2 
@@ -168,13 +168,15 @@ ul2 = 7  ->  000...00111
 
 ### Environment
 + Ubuntu 18.x
+
 + g++ 
-```
-g++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
-Copyright (C) 2017 Free Software Foundation, Inc.
-This is free software; see the source for copying conditions.  There is NO
-warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-```
+
+  ```
+  g++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+  Copyright (C) 2017 Free Software Foundation, Inc.
+  This is free software; see the source for copying conditions.  There is NO
+  warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  ```
 
 
 
