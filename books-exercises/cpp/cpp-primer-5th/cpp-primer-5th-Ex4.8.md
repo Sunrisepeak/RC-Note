@@ -17,7 +17,7 @@ categories: c++
 
 ####  Program Test(g++ for linux):
 
-```
+```c++
 #include <iostream>
 int main() {
     unsigned char c = 'q';  // 01110001
@@ -49,7 +49,7 @@ Output:
 
   + computation binary number:
 
-    ```
+    ```c++
      11111111 11111111 1110001 10000000b
      
      True form: 10000000 00000000 0001110 10000000 b
