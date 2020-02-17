@@ -37,33 +37,36 @@ Output:
 
 #### Analysis :
 
-+ code perform step: 
+##### code perform step: 
 
-  + left-associative:  `~'q' << 6` equivalence with `(~'q') << 6`
++ left-associative:  `~'q' << 6` equivalence with `(~'q') << 6`
 
-  + promoted to int for `~'q'`:  `~(01110001b)` to `~(00000000 00000000 00000000 01110001 b)`
++ promoted to int for `~'q'`:  `~(01110001b)` to `~(00000000 00000000 00000000 01110001 b)`
 
-  + Bitwise Not operator(`~`): `(11111111 11111111 11111111 1000110b) << 6`
++ Bitwise Not operator(`~`): `(11111111 11111111 11111111 1000110b) << 6`
 <!-- more -->
-  + left-shift operator(`<<`) : `11 11111111 11111111 1000110 000000b`
++ left-shift operator(`<<`) : `11 11111111 11111111 1000110 000000b`
 
-  + computation binary number:
++ computation binary number:
 
-    ```c++
-     11111111 11111111 1110001 10000000b
-     
-     True form: 10000000 00000000 0001110 10000000 b
-     	- (2^11 + 2^10 + 2^9 + 2^7) = - (2048 + 1024 + 512 + 128) = -3712 what? Oh, No
- debug:
+  ```c++
+   11111111 11111111 1110001 10000000b
+   
+   True form: 10000000 00000000 0001110 10000000 b
+   	- (2^11 + 2^10 + 2^9 + 2^7) = - (2048 + 1024 + 512 + 128) = -3712 what? Oh, No
+  ```
+##### debug:
+```c++
      	oh, lose an zero in Bitwise Not operator step. so computation:
-     modify: 							   +
+     modify:
      	(11111111 11111111 11111111 100011 1 0b) << 6
      	11111111 11111111 11100011 10000000b
      new [true form] : 10000000 00000000 00011100 10000000 b
      	- (2^12 + 2^11 + 2^10  + 2^7) = - (4096 + 2048 + 1024 + 128) = -7296 Oh, Yell
-    ```
-    
-    
+            
+```
+
+​    
 
 
 
