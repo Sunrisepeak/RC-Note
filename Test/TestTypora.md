@@ -1,12 +1,13 @@
 ---
 title: Test Typora
 mathjax: false
-date: 2020-02-16 21:58:34
-tags: 
-	- Test
-	- Debug
-	- Markdown
+tags:
+  - Test
+  - Debug
+  - Markdown
 categories: Test
+abbrlink: 3597805565
+date: 2020-02-16 21:58:34
 ---
 
 ### this is Typora test
