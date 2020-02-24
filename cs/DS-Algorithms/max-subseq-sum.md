@@ -118,7 +118,7 @@ int maxSubMax(const vector<int> &arr) {
 >
 > > but [L, i] < 0, so [p, i] > 0 is mistake assumption.
 >
-> > so, [p, i] <= 0, can let L = i when [p, i] < 0;
+> > so, [p, i] <= 0, can let L = i when [L, i] < 0;
 
 
 
