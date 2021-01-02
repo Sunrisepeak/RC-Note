@@ -134,7 +134,7 @@ const int c = a;	// 对b显式声明const,进行保留a的const属性
 
 > 指针，可以看成两部分。一是，他本身为指针类型和引用类型。二是，他们指向的和绑定的类型。下面用画图的方式来简单描述下他们的顶层和底层const.
 
-![](RC-Note/cs/c-cpp/picture/cpp_type_const.png)
+![](https://github.com/Sunrisepeak/RC-Note/tree/master/cs/c-cpp/picture/cpp_type_const.png)
 
 **上面图片里描述了：**
 
@@ -169,7 +169,7 @@ int main() {
 
 **编译信息:编译器报了底层const的错误，还有一个错误是p2是常量**
 
-![](/RC-Note/cs/c-cpp/picture/const_1.png)
+![](https://github.com/Sunrisepeak/RC-Note/tree/master/cs/c-cpp/picture/const_1.png)
 
 
 
@@ -241,7 +241,7 @@ int main() {
 
 编译信息:
 
-![](/RC-Note/cs/c-cpp/picture/referenve.png)
+![](https://github.com/Sunrisepeak/RC-Note/tree/master/cs/c-cpp/picture/referenve.png)
 
 
 
@@ -287,7 +287,7 @@ int main() {
 ```
 
 
-![](/RC-Note/cs/c-cpp/picture/funcPointer.png)
+![](https://github.com/Sunrisepeak/RC-Note/tree/master/cs/c-cpp/picture/funcPointer.png)
 
 
 
@@ -371,7 +371,7 @@ int main() {
 
 **编译运行信息:**
 
-![](/RC-Note/cs/c-cpp/picture/usingAndTypedef.png)
+![](https://github.com/Sunrisepeak/RC-Note/tree/master/cs/c-cpp/picture/usingAndTypedef.png)
 
 
 
