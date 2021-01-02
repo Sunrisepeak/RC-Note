@@ -134,7 +134,7 @@ const int c = a;	// 对b显式声明const,进行保留a的const属性
 
 > 指针，可以看成两部分。一是，他本身为指针类型和引用类型。二是，他们指向的和绑定的类型。下面用画图的方式来简单描述下他们的顶层和底层const.
 
-![](/home/speak/Pictures/passagePicture/cpp_type_const.png)
+![](/home/speak/mycode/github/RC-Note/cs/c-cpp/picture/cpp_type_const.png)
 
 **上面图片里描述了：**
 
@@ -169,7 +169,7 @@ int main() {
 
 **编译信息:编译器报了底层const的错误，还有一个错误是p2是常量**
 
-![](/home/speak/Pictures/Screenshot from 2021-01-02 18-47-20.png)
+![](/home/speak/mycode/github/RC-Note/cs/c-cpp/picture/const_1.png)
 
 
 
@@ -241,7 +241,7 @@ int main() {
 
 编译信息:
 
-![](/home/speak/Pictures/Screenshot from 2021-01-02 19-41-11.png)
+![](/home/speak/mycode/github/RC-Note/cs/c-cpp/picture/referenve.png)
 
 
 
@@ -263,7 +263,7 @@ int main() {
 
 这个代码一眼看上去，就给人很复杂的感觉(我在第一次看到这代码时也有种懵懵的感觉)，下面用一个图来简单分析下他的结构。
 
-![](/home/speak/Pictures/passagePicture/convertType.png)
+![](/home/speak/mycode/github/RC-Note/cs/c-cpp/picture/convertType.png)
 
 
 
@@ -287,7 +287,7 @@ int main() {
 ```
 
 
-![](/home/speak/Pictures/Screenshot from 2021-01-02 20-38-56.png)
+![](/home/speak/mycode/github/RC-Note/cs/c-cpp/picture/funcPointer.png)
 
 
 
@@ -371,7 +371,7 @@ int main() {
 
 **编译运行信息:**
 
-![](/home/speak/Pictures/Screenshot from 2021-01-02 21-28-26.png)
+![](/home/speak/mycode/github/RC-Note/cs/c-cpp/picture/usingAndTypedef.png)
 
 
 
